@@ -10,3 +10,4 @@ services:
         value: production
       - key: ENABLE_CROSS_ORIGIN_ISOLATION
         value: "false"
+
