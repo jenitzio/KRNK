@@ -1,7 +1,7 @@
 {
   "name": "krnk-js",
   "version": "1.0.0",
-  "description": "KRNK.js — Browser FPS game server",
+  "description": "KRNK.js — Multiplayer FPS game server with WebSocket",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,12 +11,15 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
   },
   "keywords": [
     "fps",
     "game",
     "threejs",
+    "websocket",
+    "multiplayer",
     "krnk"
   ],
   "license": "MIT"
