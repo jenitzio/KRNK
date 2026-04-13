@@ -1,18 +1,15 @@
 {
-  "name": "krnk-js",
+  "name": "krnk",
   "version": "1.0.0",
-  "description": "KRNK.js — Browser FPS game server",
-  "main": "server.js",
+  "private": true,
+  "main": "KRNK.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node KRNK.js"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18"
   },
   "dependencies": {
-    "express": "^4.21.2"
-  },
-  "keywords": ["fps", "game", "threejs", "krnk"],
-  "license": "MIT"
+    "express": "^4.19.2"
+  }
 }
